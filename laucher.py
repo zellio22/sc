@@ -32,7 +32,7 @@ def download_and_extract_zip(url, target_folder):
         return False
 
 def update_launcher(local_folder):
-    github_release_url = 'https://github.com/zellio22/psutil_mqtt/archive/refs/heads/main.zip'
+    github_release_url = 'https://github.com/zellio22/sc/archive/refs/heads/main.zip'
 
     print("Téléchargement de la mise à jour...")
     if download_and_extract_zip(github_release_url, local_folder):
